@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<?php echo exec( 'groups' );?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
